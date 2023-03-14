@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T22:21:39.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="0XDm1kjEFkprdF7aqfYC" type="github"><diagram name="Page-1" id="OQfdkg7p54edjwopxmOw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-14T22:35:08.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="UpDBU6gElbmS6pG9oorc" version="21.0.6" type="github">
+  <diagram name="Page-1" id="OQfdkg7p54edjwopxmOw">
+    <mxGraphModel dx="420" dy="218" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IfSjl7prv3xRYa0Ff5PQ-21" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IfSjl7prv3xRYa0Ff5PQ-22" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="IfSjl7prv3xRYa0Ff5PQ-21">
+          <mxGeometry y="50" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IfSjl7prv3xRYa0Ff5PQ-24" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="110" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IfSjl7prv3xRYa0Ff5PQ-25" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="IfSjl7prv3xRYa0Ff5PQ-24">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IfSjl7prv3xRYa0Ff5PQ-28" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;rounded=1;startArrow=ERmany;startFill=0;strokeWidth=2;elbow=vertical;edgeStyle=orthogonalEdgeStyle;jumpStyle=none;fillColor=#f5f5f5;strokeColor=#000000;shadow=0;" edge="1" parent="1" source="IfSjl7prv3xRYa0Ff5PQ-22" target="IfSjl7prv3xRYa0Ff5PQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
