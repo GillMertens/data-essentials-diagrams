@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T18:57:53.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="Wjl4LTMm5hgSnVWBmygr" type="github"><diagram name="Page-1" id="DzoSlTxtzztCjjooYoNL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-16T00:42:20.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NdnT6EXrzWrU1DcVte_h" version="21.0.6" type="github">
+  <diagram name="Page-1" id="DzoSlTxtzztCjjooYoNL">
+    <mxGraphModel dx="1313" dy="681" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GCurCIfI9-adOS-DnDHr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.207;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GCurCIfI9-adOS-DnDHr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="451" y="336.18100000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-1" value="AUTO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="274" width="160" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-2" value="#chassisnummer&lt;br&gt;*merk&lt;br&gt;*bouwjaar&lt;br&gt;*model" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GCurCIfI9-adOS-DnDHr-1">
+          <mxGeometry y="50" width="160" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="GCurCIfI9-adOS-DnDHr-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="278" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="GCurCIfI9-adOS-DnDHr-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="278" y="504" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="505" />
+              <mxPoint x="278" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-11" value="PERSOON" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="140" width="202" height="458" as="geometry" />
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-12" value="#id&lt;br&gt;*voornaam&lt;br&gt;*achternaam&lt;br&gt;°geboorteddatum" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GCurCIfI9-adOS-DnDHr-11">
+          <mxGeometry y="50" width="202" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-4" value="BESTUURDER" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451" y="269" width="160" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-13" value="*Rijbewijsnummer" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GCurCIfI9-adOS-DnDHr-4">
+          <mxGeometry y="50" width="160" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="GCurCIfI9-adOS-DnDHr-7" value="PASSAGIER" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451" y="438" width="160" height="133" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
